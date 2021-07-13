@@ -1,10 +1,10 @@
 import { GenreResponseProps, MovieProps } from "../App";
 import { MovieCard } from "./MovieCard";
 
-import '../styles/content.scss';
 import { useEffect, useState } from "react";
 import { api } from "../services/api";
 
+import '../styles/content.scss';
 
 interface ContentProps {
   selectedGenreId: number;
