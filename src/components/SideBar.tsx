@@ -1,9 +1,9 @@
 import { GenreResponseProps } from "../App";
 import { Button } from "./Button";
-import '../styles/sidebar.scss';
 import { useEffect, useState } from "react";
 import { api } from "../services/api";
 
+import '../styles/sidebar.scss';
 interface SidebarProps {
   selectedGenreId: number;
   handleClickButton: (id: number) => void;
